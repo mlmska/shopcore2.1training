@@ -1,0 +1,8 @@
+C:\Users\user\source\repos\coreadvanced\datalayer\bin\Debug\netcoreapp2.1\datalayer.deps.json
+C:\Users\user\source\repos\coreadvanced\datalayer\bin\Debug\netcoreapp2.1\datalayer.dll
+C:\Users\user\source\repos\coreadvanced\datalayer\obj\Debug\netcoreapp2.1\datalayer.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\coreadvanced\datalayer\obj\Debug\netcoreapp2.1\datalayer.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\coreadvanced\datalayer\obj\Debug\netcoreapp2.1\datalayer.AssemblyInfo.cs
+C:\Users\user\source\repos\coreadvanced\datalayer\bin\Debug\netcoreapp2.1\datalayer.pdb
+C:\Users\user\source\repos\coreadvanced\datalayer\obj\Debug\netcoreapp2.1\datalayer.dll
+C:\Users\user\source\repos\coreadvanced\datalayer\obj\Debug\netcoreapp2.1\datalayer.pdb

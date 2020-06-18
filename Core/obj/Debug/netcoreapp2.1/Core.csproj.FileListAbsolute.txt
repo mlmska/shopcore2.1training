@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\coreadvanced\Core\bin\Debug\netcoreapp2.1\Core.deps.json
+C:\Users\user\source\repos\coreadvanced\Core\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\user\source\repos\coreadvanced\Core\bin\Debug\netcoreapp2.1\datalayer.dll
+C:\Users\user\source\repos\coreadvanced\Core\bin\Debug\netcoreapp2.1\datalayer.pdb
+C:\Users\user\source\repos\coreadvanced\Core\obj\Debug\netcoreapp2.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\coreadvanced\Core\obj\Debug\netcoreapp2.1\Core.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\coreadvanced\Core\obj\Debug\netcoreapp2.1\Core.AssemblyInfo.cs
+C:\Users\user\source\repos\coreadvanced\Core\obj\Debug\netcoreapp2.1\Core.csproj.CopyComplete
+C:\Users\user\source\repos\coreadvanced\Core\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\user\source\repos\coreadvanced\Core\obj\Debug\netcoreapp2.1\Core.csprojAssemblyReference.cache
+C:\Users\user\source\repos\coreadvanced\Core\obj\Debug\netcoreapp2.1\Core.dll
+C:\Users\user\source\repos\coreadvanced\Core\obj\Debug\netcoreapp2.1\Core.pdb
+C:\Users\user\source\repos\coreadvanced\Core\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\user\source\repos\coreadvanced\Core\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\user\source\repos\coreadvanced\Core\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Mvc.Razor.xml
+C:\Users\user\source\repos\coreadvanced\Core\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Mvc.ViewFeatures.xml

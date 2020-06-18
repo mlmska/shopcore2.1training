@@ -1,0 +1,21 @@
+﻿@page "{id}"
+@model coreadvanced.Pages.Admin.Roles.DeleteRoleModel
+@{
+    ViewData["Title"] = "DeleteRole";
+}
+
+<div class="container alert alert-danger">
+    <form method="post">
+        <input type="hidden" asp-for="role.RoleID" />
+        <input type="hidden" asp-for="role.RoleTilte" />
+
+        <h2>ایا از حذف @Model.role.RoleTilte مطمئن هستید ؟</h2>
+        <p>
+            <input type="submit" value="حذف" class="btn btn-outline btn-danger" />
+            <a asp-page="Index" class="btn btn-outline btn-info">انصراف</a>
+        </p>
+
+    </form>
+
+</div>
+

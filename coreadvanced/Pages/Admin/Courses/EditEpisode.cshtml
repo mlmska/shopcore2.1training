@@ -1,0 +1,56 @@
+﻿@page "{id}"
+@model coreadvanced.Pages.Admin.Courses.EditEpisodeModel
+@{
+    ViewData["Title"] = "EditEpisode";
+}
+
+
+    <div class="row">
+        <form method="post" enctype="multipart/form-data">
+            <input type="hidden" asp-for="Courseepisode.CourseID" />
+            <input type="hidden" asp-for="Courseepisode.EpisodeFileName" />
+            <input type="hidden" asp-for="Courseepisode.EpisodeID" />
+            <div class="col-md-12">
+                <h2> اطلاعات قسمت </h2>
+                <hr />
+            </div>
+            <div class="form-group">
+                <label>عنوان قسمت</label>
+                <input type="text" asp-for="Courseepisode.EpisodeTitle" class="form-control" />
+                <span asp-validation-for="Courseepisode.EpisodeTitle"></span>
+            </div>
+            <div class="form-group">
+                <label>زمان قسمت</label>
+                <input type="text" asp-for="Courseepisode.EpisodeTime" class="form-control" />
+                <span asp-validation-for="Courseepisode.EpisodeTime"></span>
+            </div>
+            <div class="form-group">
+                <label>فایل بخش</label>
+                <input type="file" name="FileEpisode" />
+                <p class="text-danger">فایل تجباری است</p>
+                @if (ViewData["isExist"] != null)
+                {
+                    <div class="alert alert-danger">
+                        نام فایل معتبر نمی باشد لطفا تغییر دهید
+
+                    </div>
+                }
+                <span asp-validation-for="Courseepisode.EpisodeFileName"></span>
+            </div>
+            <div class="form-group">
+                <label>دسترسی</label>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" asp-for="Courseepisode.isFree">
+                        رایکان
+                    </label>
+
+                </div>
+
+
+            </div>
+            <input type="submit" value="ذخیره اطلاعات" class="btn btn-success" />
+        </form>
+
+
+    </div>
