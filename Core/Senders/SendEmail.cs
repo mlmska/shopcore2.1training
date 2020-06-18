@@ -12,7 +12,7 @@ namespace Core.Senders
         {
             MailMessage mail = new MailMessage();
             SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
-            mail.From = new MailAddress("myeshop321@gmail.com", "core advanceed");
+            mail.From = new MailAddress("*****", "core advanceed");
             mail.To.Add(to);
             mail.Subject = subject;
             mail.Body = body;
@@ -23,7 +23,7 @@ namespace Core.Senders
             // mail.Attachments.Add(attachment);
 
             SmtpServer.Port = 587;
-            SmtpServer.Credentials = new System.Net.NetworkCredential("myeshop321@gmail.com", "a#13751213");
+            SmtpServer.Credentials = new System.Net.NetworkCredential("*******", "*********");
             SmtpServer.EnableSsl = true;
 
             SmtpServer.Send(mail);
